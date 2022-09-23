@@ -57,6 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MenuHandler.cs" />
+    <Compile Include="Assets\Scripts\PlatformBehavior.cs" />
+    <Compile Include="Assets\Scripts\PipeBehavior.cs" />
+    <Compile Include="Assets\Scripts\GroundBehavior.cs" />
+    <Compile Include="Assets\Scripts\Score.cs" />
+    <Compile Include="Assets\Scripts\GameBehaviour.cs" />
+    <Compile Include="Assets\Scripts\PlayerBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
