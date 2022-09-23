@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class PipeBehavior : MonoBehaviour
+public class PipeBehavior : GameBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    //POLYMORPHISM
+    public override void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Trigger entered");
+        Debug.Log("Pipe behavior override Trigger entered");
+        SceneManager.LoadScene(2);
     }
 }
